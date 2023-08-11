@@ -1,0 +1,17 @@
+{
+    "random": {
+        "desc": "Fetches a random joke from the JSON mock service "
+    },
+    "programming": {
+        "desc": "Fetches a random programming-related joke. "
+    },
+    "science": {
+        "desc": "Fetches a random science joke. "
+    },
+    "puns": {
+        "desc": "Fetches a random pun joke. "
+    },
+    "knockknock": {
+        "desc": "Fetches a random knock-knock joke."
+    }
+}
