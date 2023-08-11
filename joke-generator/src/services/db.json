@@ -1,0 +1,49 @@
+{
+    "random": [
+      { "id": 1, "category": "random", "joke": "Why don't scientists trust atoms? Because they make up everything!" },
+      { "id": 2, "category": "random", "joke": "Parallel lines have so much in common. It's a shame they'll never meet." },
+      { "id": 3, "category": "random", "joke": "I used to play piano by ear, but now I use my hands." },
+      { "id": 4, "category": "random", "joke": "What do you call a fake noodle? An impasta!" },
+      { "id": 5, "category": "random", "joke": "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them." },
+      { "id": 6, "category": "random", "joke": "I'm reading a book about anti-gravity. It's impossible to put down!" },
+      { "id": 7, "category": "random", "joke": "What did the left eye say to the right eye? Between you and me, something smells." },
+      { "id": 8, "category": "random", "joke": "Why did the scarecrow win an award? Because he was outstanding in his field!" },
+      { "id": 9, "category": "random", "joke": "How does a penguin build its house? Igloos it together!" },
+      { "id": 10, "category": "random", "joke": "I told my wife she was drawing her eyebrows too high. She seemed surprised" }
+
+    ],
+    "programming": [
+      { "id": 1, "category": "programming", "joke": "Why do programmers prefer using the dark mode? Because light attracts bugs." },
+      { "id": 2, "category": "programming", "joke": "Why do programmers always mix up Christmas and Halloween? Because Oct 31 == Dec 25." },
+      { "id": 3, "category": "programming", "joke": "Why do Java developers wear glasses? Because they don't C#." },
+      { "id": 4, "category": "programming", "joke": "Why did the programmer go broke? Because he used up all his cache." },
+      { "id": 5, "category": "programming", "joke": "Why did the programmer quit his job? He didn't get arrays." },
+      { "id": 6, "category": "programming", "joke": "How do you comfort a JavaScript bug? You console it." },
+      { "id": 7, "category": "programming", "joke": "Why do programmers hate nature? It has too many bugs." },
+      { "id": 8, "category": "programming", "joke": "Why was the computer cold? It left its Windows open." },
+      { "id": 9, "category": "programming", "joke": "Why was the Python programmer arrested? For printing too many exceptions." },
+      { "id": 10, "category": "programming", "joke": "Why do programmers prefer cooking classes? Because they follow recipes and get predictable results." }
+
+    ],
+    "science": [
+      { "id": 1, "category": "science", "joke": "I told a chemistry joke, but there was no reaction." },
+      { "id": 2, "category": "science", "joke": "Why do biologists always carry a map? In case they get lost in the genes." },
+      { "id": 3, "category": "science", "joke": "How do you organize a space party? You planet!" },
+      { "id": 4, "category": "science", "joke": "Why did the physicist break up with the biologist? There was no chemistry." },
+      { "id": 5, "category": "science", "joke": "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them." }
+    ],
+    "puns": [
+      { "id": 1, "category": "puns", "joke": "I'm reading a book on anti-gravity. It's impossible to put down." },
+      { "id": 2, "category": "puns", "joke": "I used to be a baker, but I couldn't make enough dough." },
+      { "id": 3, "category": "puns", "joke": "I'm friends with all electricians. We have great current connections." },
+      { "id": 4, "category": "puns", "joke": "The calendar thief got twelve months. He was facing a year in jail." },
+      { "id": 5, "category": "puns", "joke": "I'm friends with a professional fisherman. He's quite the catch!" }
+    ],
+    "knockknock": [
+      { "id": 1, "category": "knockknock", "joke": "Knock, knock. Who's there? Lettuce. Lettuce who? Lettuce in, it's cold out here!" },
+      { "id": 2, "category": "knockknock", "joke": "Knock, knock.Who's there? Atch. Atch who? Bless you!" },
+      { "id": 3, "category": "knockknock", "joke": "Knock, knock. Who's there? Cow says. Cow says who? No silly, cow says moo !" },
+      { "id": 4, "category": "knockknock", "joke": "Knock, knock. Who's there? Luke. Luke who? Luke through the peephole and find out!" },
+      { "id": 5, "category": "knockknock", "joke": "Knock, knock. Who's there? Harry. Harry who? Harry up and answer the door, it's freezing out here!" }
+    ]
+  }
