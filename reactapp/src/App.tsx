@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Box, Button, Stack } from '@mui/material';
+import useGetRandomJoke from './hooks/useGetRandomJoke';
+import DisplayJoke from './components/DisplayJoke';
+import LoadingIndicator from './components/LoadingIndicator';
 
 function App() {
+  const jokeDetails = useGetRandomJoke()
+  const { isFetching, isFetchedOnce, data, isFetchError, fetchData } = jokeDetails
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <LoadingIndicator show={isFetching} />
+      <Box sx={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center", height: "100vh",
+        justifyContent: "center"
+      }}>
+        <Button sx={{mb: 2}} variant="contained" size='large' onClick={() => fetchData()}>Get Joke</Button>
+
+        {isFetchedOnce && !isFetching && <DisplayJoke data={data} isError={isFetchError} />}
+      </Box>
+    </div >
   );
 }
 
