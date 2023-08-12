@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
 import styled from "@emotion/styled";
 import useHttpClient from "../../httpClient";
+import { jokeMap } from "../../utils";
 
 const StyledDiv = styled.div``;
 
 export const ProgrammingJoke = () => {
   const [programmingJoke, setprogrammingJoke] = useState("");
-  const { getProgrammingJoke } = useHttpClient();
+  const { getJoke } = useHttpClient();
 
   useEffect(() => {
-    getProgrammingJoke()
+    getJoke(jokeMap.PROGRAMMING)
       .then((res) => {
         setprogrammingJoke(res?.data?.joke);
       })

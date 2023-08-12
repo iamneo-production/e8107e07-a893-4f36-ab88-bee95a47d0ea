@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
 import styled from "@emotion/styled";
 import useHttpClient from "../../httpClient";
+import { jokeMap } from "../../utils";
 
 const StyledDiv = styled.div``;
 
 export const PunJoke = () => {
   const [punJoke, setPunJoke] = useState("");
-  const { getPunsJoke } = useHttpClient();
+  const { getJoke } = useHttpClient();
 
   useEffect(() => {
-    getPunsJoke()
+    getJoke(jokeMap.PUNS)
       .then((res) => {
         setPunJoke(res?.data?.joke);
       })

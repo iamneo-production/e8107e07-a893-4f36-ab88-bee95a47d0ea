@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
 import styled from "@emotion/styled";
 import useHttpClient from "../../httpClient";
+import { jokeMap } from "../../utils";
 
 const StyledDiv = styled.div``;
 
 export const RandomJoke = () => {
   const [randomJoke, setRandomJoke] = useState("");
-  const { getRandomJoke } = useHttpClient();
+  const { getJoke } = useHttpClient();
 
   useEffect(() => {
-    getRandomJoke()
+    getJoke(jokeMap.RANDOM)
       .then((res) => {
         setRandomJoke(res?.data?.joke);
       })
