@@ -55,5 +55,5 @@ server.get('/api/jokes/:type', (req, res) => {
 // Start the server
 server.use(middlewares);
 server.listen(8080, () => {
-  console.log('JSON Server is running on port 3000');
+  console.log('JSON Server is running on port 8080');
 });

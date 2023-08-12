@@ -1,3 +1,8 @@
+import { RandomJoke } from "../components/RandomJokes";
+import { KnockJoke } from "../components/KnockKnockJokes";
+import { ProgrammingJoke } from "../components/ProgrammingJokes";
+import { ScienceJoke } from "../components/ScienceJokes";
+import { PunJoke } from "../components/PunsJokes";
 export const categories = [
   "Random Jokes",
   "Programming Jokes",
@@ -15,4 +20,12 @@ export const jokeMap = {
   SCIENCE: "science",
   PUNS: "puns",
   KNOCK: "knock",
+};
+
+export const compMap = {
+  "Random Jokes": RandomJoke,
+  "Programming Jokes": ProgrammingJoke,
+  "Science Jokes": ScienceJoke,
+  "Puns Jokes": PunJoke,
+  "KnockKnock Jokes": KnockJoke,
 };

@@ -1,23 +1,22 @@
+import React from "react";
+import { Tabs } from "antd";
+import { compMap } from "../../utils";
 
-import React from 'react';
-import { Tabs } from 'antd';
-
-interface HomePageProps{
-    categories:string[]
+interface HomePageProps {
+  categories: string[];
 }
 
-export const HomePage = ({categories}:HomePageProps) =>{
-  return(
-    <Tabs
-    defaultActiveKey="1"
-    centered
-    items={categories.map((cat, ind) => {
-      return {
-        label: `${cat}`,
-        key: `${ind}`,
-        children: `Content of Tab Pane ${ind}`,
-      };
-    })}
-  />
-  )
-}
+export const HomePage = ({ categories }: HomePageProps) => {
+  return (
+    <Tabs defaultActiveKey="0" centered>
+      {categories.map((cat, ind) => {
+        const ComponentToRender = compMap[cat as keyof typeof compMap];
+        return (
+          <Tabs.TabPane key={ind} tab={cat}>
+            <ComponentToRender />
+          </Tabs.TabPane>
+        );
+      })}
+    </Tabs>
+  );
+};
