@@ -1,8 +1,0 @@
-{
-    "/api/jokes/random": "/random",
-    "/api/jokes/programming": "/programming",
-    "/api/jokes/science": "/science",
-    "/api/jokes/puns": "/puns",
-    "/api/jokes/knockknock": "/knockknock"
-  }
-  
