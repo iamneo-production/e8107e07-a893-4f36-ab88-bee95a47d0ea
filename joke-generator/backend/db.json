@@ -7,128 +7,257 @@
         "type": "science"
       },
       {
-        "key": 5,
+        "key": 2,
         "joke": "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them.",
         "type": "science"
       },
       {
-        "key": 12,
+        "key": 3,
         "joke": "Why was the math book sad? Because it had too many problems.",
         "type": "science"
       },
       {
-        "key": 17,
+        "key": 4,
         "joke": "Why do biologists write very neatly? They have good cell structure.",
         "type": "science"
       },
       {
-        "key": 20,
+        "key": 5,
         "joke": "How does a scientist freshen their breath? With experi-mints!",
         "type": "science"
       },
       {
-        "key": 28,
+        "key": 6,
         "joke": "Why do chemists like nitrates so much? Because they're cheaper than day rates!",
+        "type": "science"
+      },
+      {
+        "key": 7,
+        "joke": "Why did the physics textbook go to therapy? It had too much potential.",
+        "type": "science"
+      },
+      {
+        "key": 8,
+        "joke": "Why don't engineers trust stairs? Because they're always up to something.",
+        "type": "science"
+      },
+      {
+        "key": 9,
+        "joke": "How do you organize a space party? You planet!",
+        "type": "science"
+      },
+      {
+        "key": 10,
+        "joke": "Why do cows have hooves instead of feet? Because they lactose!",
         "type": "science"
       }
     ],
     "puns": [
       {
-        "key": 2,
-        "joke": "Parallel lines have so much in common. It’s a shame they’ll never meet.",
+        "key": 11,
+        "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
         "type": "puns"
       },
       {
-        "key": 4,
+        "key": 12,
         "joke": "I told my wife she was drawing her eyebrows too high. She seemed surprised.",
         "type": "puns"
       },
       {
-        "key": 6,
+        "key": 13,
         "joke": "I'm reading a book on anti-gravity. It's impossible to put down!",
         "type": "puns"
       },
       {
-        "key": 11,
+        "key": 14,
         "joke": "Why did the scarecrow win an award? Because he was outstanding in his field!",
         "type": "puns"
       },
       {
-        "key": 13,
+        "key": 15,
         "joke": "Why did the bicycle fall over? Because it was two-tired!",
         "type": "puns"
       },
       {
-        "key": 14,
+        "key": 16,
         "joke": "Why did the chicken go to the seance? To talk to the other side.",
         "type": "puns"
       },
       {
-        "key": 18,
+        "key": 17,
         "joke": "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
         "type": "puns"
       },
       {
-        "key": 21,
+        "key": 18,
         "joke": "Why don't oysters donate to charity? Because they are shellfish.",
         "type": "puns"
       },
       {
-        "key": 24,
+        "key": 19,
         "joke": "How do you organize a space party? You planet!",
         "type": "puns"
       },
       {
-        "key": 26,
-        "joke": "Why was the cell phone wearing glasses? It lost its contacts.",
-        "type": "puns"
-      },
-      {
-        "key": 29,
-        "joke": "What did one wall say to the other wall? I'll meet you at the corner!",
+        "key": 20,
+        "joke": "Why did the scarecrow become a successful artist? He had a great straw-stroke!",
         "type": "puns"
       }
     ],
     "programming": [
       {
-        "key": 3,
+        "key": 21,
         "joke": "Why did the programmer go broke? Because he used up all his cache.",
         "type": "programming"
       },
       {
-        "key": 7,
+        "key": 22,
         "joke": "Why don't programmers like nature? It has too many bugs.",
         "type": "programming"
       },
       {
-        "key": 10,
+        "key": 23,
         "joke": "Why did the web developer walk out of therapy? The therapist told him he had too many issues.",
         "type": "programming"
       },
       {
-        "key": 15,
+        "key": 24,
         "joke": "Why don't programmers like to go outside? The sunlight causes too many glare errors.",
         "type": "programming"
       },
       {
-        "key": 19,
+        "key": 25,
         "joke": "Why did the programmer quit his job? He didn't get arrays.",
         "type": "programming"
       },
       {
-        "key": 22,
+        "key": 26,
         "joke": "Why did the computer go to therapy? It had too many bytes of emotional baggage.",
         "type": "programming"
       },
       {
-        "key": 25,
+        "key": 27,
         "joke": "Why don't programmers like to go outside? The light attracts bugs.",
         "type": "programming"
       },
       {
-        "key": 30,
+        "key": 28,
         "joke": "Why do programmers always mix up Christmas and Halloween? Because Oct 31 == Dec 25.",
         "type": "programming"
+      },
+      {
+        "key": 29,
+        "joke": "Why did the programmer stay at home? He couldn't find his keys.",
+        "type": "programming"
+      },
+      {
+        "key": 30,
+        "joke": "Why did the programmer go to therapy? He had too many objects.",
+        "type": "programming"
+      }
+    ],
+    "random": [
+      {
+        "key": 31,
+        "joke": "Why don't skeletons fight each other? They don't have the guts.",
+        "type": "random"
+      },
+      {
+        "key": 32,
+        "joke": "How do you organize a space party? You planet!",
+        "type": "random"
+      },
+      {
+        "key": 33,
+        "joke": "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "type": "random"
+      },
+      {
+        "key": 34,
+        "joke": "What's the best thing about Switzerland? I don't know, but the flag is a big plus.",
+        "type": "random"
+      },
+      {
+        "key": 35,
+        "joke": "Why did the math book look sad? Because it had too many problems.",
+        "type": "random"
+      },
+      {
+        "key": 36,
+        "joke": "I used to play piano by ear, but now I use my hands.",
+        "type": "random"
+      },
+      {
+        "key": 37,
+        "joke": "I told my wife she was drawing her eyebrows too high. She seemed surprised.",
+        "type": "random"
+      },
+      {
+        "key": 38,
+        "joke": "What do you call a parade of rabbits hopping backwards? A receding hare-line.",
+        "type": "random"
+      },
+      {
+        "key": 39,
+        "joke": "How do you organize a space party? You planet!",
+        "type": "random"
+      },
+      {
+        "key": 40,
+        "joke": "Why don't some couples go to the gym? Because some relationships don't work out.",
+        "type": "random"
+      }
+    ],
+    "knockknock": [
+      {
+        "key": 41,
+        "joke": "Knock, knock. Who's there? Lettuce. Lettuce who? Lettuce in, it's cold out here!",
+        "type": "knockknock"
+      },
+      {
+        "key": 42,
+        "joke": "Knock, knock. Who's there? Alpaca. Alpaca who? Alpaca the suitcase, you load up the car.",
+        "type": "knockknock"
+      },
+      {
+        "key": 43,
+        "joke": "Knock, knock. Who's there? Cow says. Cow says who? No silly, a cow says mooo!",
+        "type": "knockknock"
+      },
+      {
+        "key": 44,
+        "joke": "Knock, knock. Who's there? Boo. Boo who? Don't cry, it's just a joke!",
+        "type": "knockknock"
+      },
+      {
+        "key": 45,
+        "joke": "Knock, knock. Who's there? Justin. Justin who? Just in time for a knock-knock joke!",
+        "type": "knockknock"
+      },
+      {
+        "key": 46,
+        "joke": "Knock, knock. Who's there? Lettuce. Lettuce who? Lettuce in, it's cold out here!",
+        "type": "knockknock"
+      },
+      {
+        "key": 47,
+        "joke": "Knock, knock. Who's there? Who. Who who? Are you an owl?",
+        "type": "knockknock"
+      },
+      {
+        "key": 48,
+        "joke": "Knock, knock. Who's there? Wendy. Wendy who? Wendy wind blows, the cradle will rock.",
+        "type": "knockknock"
+      },
+      {
+        "key": 49,
+        "joke": "Knock, knock. Who's there? Cash. Cash who? No thanks, I prefer peanuts.",
+        "type": "knockknock"
+      },
+      {
+        "key": 50,
+        "joke": "Knock, knock. Who's there? Luke. Luke who? Luke through the peephole and find out!",
+        "type": "knockknock"
       }
     ]
   }

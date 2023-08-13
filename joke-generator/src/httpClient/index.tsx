@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import { NETWORK_CALL_TIMEOUT, BASE_URL, ROUTE } from "../utils/index";
+import { NETWORK_CALL_TIMEOUT, BASE_URL } from "../utils/index";
 
 const http = axios.create({
   timeout: NETWORK_CALL_TIMEOUT,
@@ -9,7 +9,7 @@ const http = axios.create({
 const useHttpClient = () => {
   return {
     getJoke: (type:string) => {
-      return http.get(`${BASE_URL}/${ROUTE}/${type}`);
+      return http.get(`${BASE_URL}/${type}`);
     },
   };
 };
