@@ -11,7 +11,7 @@ export const categories = [
   "KnockKnock Jokes",
 ];
 export const NETWORK_CALL_TIMEOUT = 500 * 60;
-export const BASE_URL = "https://ide-dccccadaccccaeaeacdaecdcbdacbedad.project.examly.io/proxy/8080";
+export const BASE_URL = "https://8080-dccccadaccccaeaeacdaecdcbdacbedad.project.examly.io";
 
 export const jokeMap = {
   RANDOM: "random",
